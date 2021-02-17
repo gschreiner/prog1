@@ -3,6 +3,7 @@
 int main(){
 	
 	printf("Salsi fufu!");
+	printf("Salsi fufu!");
 
 	printf("Mais um elemento!");
 
