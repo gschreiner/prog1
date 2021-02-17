@@ -5,7 +5,7 @@ int main(){
 	printf("Salsi fufu!");
 	printf("Salsi fufu!");
 
-	printf("Mais um elemento!");
+	printf("Vai dar caca!");
 
 	return 0;
 }
