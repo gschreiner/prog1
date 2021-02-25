@@ -59,11 +59,13 @@ public class Programa {
 
 		System.out.println("Vc Digitou: " + vetor[vetor.length-1]);
 		
-		System.out.print("Digite seu nome: "+ 1+1);
+		System.out.print("Digite seu nome: ");
 		nomeCompleto = scanner.nextLine(); //fgets 
 
 		System.out.println("Seu nome: "+vetor.toString());
 		//scanner.close(); frescurinha
+
+		System.out.println("Somando "+(inteiro+1));
 
 	}
 

@@ -5,7 +5,7 @@ int main(){
 	printf("Salsi fufu!");
 	printf("Salsi fufu!");
 
-	printf("Não vai dar cada.");
+	printf("É tetra!");
 
 	return 0;
 }
