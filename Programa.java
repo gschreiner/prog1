@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner; //include do C, para ler dados.
 
@@ -6,6 +8,7 @@ import java.util.Scanner; //include do C, para ler dados.
 public class Programa {
 	public static void main(String args[]){
 		int inteiro  = 10; 
+		//Pessoa p = new Pessoa(), p2 = new Pessoa(), p3;
 		String nomeCompleto;
 		//nome = "Geomar";
 		Float vetor[]; 
@@ -52,7 +55,7 @@ public class Programa {
 		scanner = new Scanner(System.in); //ler do teclado.
 		scanner.useLocale(Locale.US); //padrão de flutuante é .
 		
-		System.out.println("Digite um valor: ");
+		System.out.println("Digite um valor ç â ão: ");
 		vetor[vetor.length-1] = scanner.nextFloat(); //no C: scanf("%d", &inteiro)
 		scanner.nextLine();
 
@@ -66,6 +69,10 @@ public class Programa {
 		//scanner.close(); frescurinha
 
 		System.out.println("Somando "+(inteiro+1));
+
+		Date data = new Date(); 
+		
+		LocalDate.now().getYear();
 
 	}
 
