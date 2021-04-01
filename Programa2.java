@@ -3,14 +3,17 @@ public class Programa2 {
 
 	public static void main(String[] args) {
 
-		Pessoa p = new Pessoa("Atreyu","Minino do cavalo",  new Data(05,10,1984));
+		Pincher belzebu = new Pincher();
 
-		Data d = p.getData();
-		d.setMes(9);
+		belzebu.setNome("Lucifer");
+		belzebu.emitiSom();
 
-		p.getData().setMes(9);
-		
-		System.out.println(p.toString());
+		ViralataCaramelo vc = new ViralataCaramelo();
+		vc.setNome("Rufles");
+
+		vc.emitiSom();
+
+		Gato gato = new Gato();
 		
 		
 	}
